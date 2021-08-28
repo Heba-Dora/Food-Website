@@ -1,0 +1,96 @@
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #050505;
+    display: flex;
+    flex-direction: row;
+    box-shadow: #6b6a6a 20px 30px 30px -25px, #8b8989 0px 30px 60px -30px
+  }
+
+  .Navbar .NavbarRight  {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+    
+  }
+
+  .Navbar .NavbarRight button{
+    background-color: transparent;
+    color: white;
+    
+   
+  }
+
+  .Navbar a{
+    color: white;
+    margin: 10px;
+  }
+  
+  .Navbar .NavbarLeft {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  .Navbar .NavbarLeft img {
+    width: 90px;
+  }
+
+  .Navbar .NavbarRight button{
+      display: none;
+  }
+
+    @media only screen and (max-width: 650px){
+       .Navbar .NavbarRight .links {
+            display: none;
+        }
+
+        .Navbar .NavbarRight {
+            justify-content: flex-end;
+            padding-left: 100px;
+        }
+        .Navbar .NavbarRight button{
+            display: flex;
+        }
+
+
+        .Navbar .NavbarRight #hidden{
+            display: flex;
+            position: absolute;
+            align-items: center;
+            background-color: black;
+            flex-direction: column;
+            left: 0px;
+            top: 90px;
+            color: white;
+            height: 230px;
+            width: 100%;
+            
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      
+
