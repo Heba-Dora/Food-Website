@@ -1,0 +1,22 @@
+.homepage{
+    width: 100vw;
+height: 86vh; 
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+color:white
+    
+  
+}
+.homepage button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.maintext {
+    margin: 100px 0px 0px 100px;
+}

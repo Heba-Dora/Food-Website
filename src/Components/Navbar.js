@@ -4,7 +4,7 @@ import ReorderIcon from "@material-ui/icons/Reorder"
 import '../Styles/Navbar.css'
 
 function Navbar() {
-    const [navbutton, setNavbutton] = useState(true)
+    const [navbutton, setNavbutton] = useState(false)
 
     return (
         <div className="Navbar" >
