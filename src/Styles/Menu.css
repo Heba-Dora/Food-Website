@@ -1,0 +1,64 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menuList {
+    display: flex;
+    flex-wrap: wrap;
+    object-position: center;
+    object-fit: cover;
+    justify-content: space-evenly;
+    
+
+}
+.menuList  .dishesList h2{
+    display: flex;
+flex-wrap: wrap;
+object-position: center;
+margin: 5%;
+}
+.menuList  .dishesList h3{
+    display: flex;
+    flex-wrap: wrap;
+    object-position: center;
+    margin:2%;
+    }
+
+    .menuList  .dishesList {
+        padding:1rem;
+        background: white;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        border: .1rem solid rgba(0,0,0,.3);
+        border-radius: .5rem;
+        text-align: center;
+        flex: 1 1 30rem;
+        position: relative;
+        
+        
+        
+    }
+    .menuList  .dishesList .foodImage{
+        height: 15rem;
+        object-fit: cover;
+        width: 100%;
+
+    }
+    .menuList  .dishesList h4{
+        position: absolute;
+        background: red;
+        color: white;
+        font-size: .8rem;
+        border-radius: .5rem;
+        padding: 2%;
+        top: 3rem; right: 3rem;
+        
+    
+        }
