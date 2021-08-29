@@ -1,0 +1,52 @@
+.aboutPage .picSection{
+    width: 107vw;
+    height: 50vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+
+
+
+
+
+
+/* .descpart p{ */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'; */
+  /* font-size: 20px; */
+  /* width: 30%; */
+  /* text-align: justify; */
+/*    */
+/*    */
+/*    */
+/* } */
+/* .descpart h1 { */
+    /* text-shadow: 4px 4px 5px gray; */
+/* } */
+/*      */
+
+.descpart{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.descpart p{
+    width: 1200px;
+    margin-bottom: 30px;
+}
+
+.aboutPage .descpart h1{
+    text-shadow: 4px 4px 5px gray; 
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    transform: translateY(-70px);
+    
+}
